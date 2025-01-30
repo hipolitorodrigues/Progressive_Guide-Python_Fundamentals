@@ -1,3 +1,13 @@
+<div align="center">
+   <img height="30" width="40" src="https://github.com/hipolitorodrigues/assets-for-github/blob/985021e61af3982fd9f28be446b106b958f24696/images/01/img-readme-ico.svg">
+   <a href="./README.en.md">
+      <img height="30" width="120" src="https://github.com/hipolitorodrigues/assets-for-github/blob/985021e61af3982fd9f28be446b106b958f24696/images/01/img-readme-en.svg">
+   </a>
+   <a href="./README.md">
+      <img height="30" width="60" src="https://github.com/hipolitorodrigues/assets-for-github/blob/985021e61af3982fd9f28be446b106b958f24696/images/01/img-readme-pt-br.svg">
+   </a>
+</div>
+
 # Guia Progressivo de Fundamentos do Python
 
 Este guia é voltado para programadores que já possuem experiência com outras linguagens, mas são iniciantes em Python. O objetivo é se familiarizar com a sintaxe e os conceitos básicos da linguagem de forma progressiva.
