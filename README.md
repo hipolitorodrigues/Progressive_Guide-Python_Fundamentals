@@ -1,86 +1,86 @@
 <div align="center">
    <img height="30" width="40" src="https://github.com/hipolitorodrigues/assets-for-github/blob/985021e61af3982fd9f28be446b106b958f24696/images/01/img-readme-ico.svg">
-   <a href="./README.en.md">
+   <a href="./README.md">
       <img height="30" width="120" src="https://github.com/hipolitorodrigues/assets-for-github/blob/985021e61af3982fd9f28be446b106b958f24696/images/01/img-readme-en.svg">
    </a>
-   <a href="./README.md">
+   <a href="./README.pt-BR.md">
       <img height="30" width="60" src="https://github.com/hipolitorodrigues/assets-for-github/blob/985021e61af3982fd9f28be446b106b958f24696/images/01/img-readme-pt-br.svg">
    </a>
 </div>
 
-# Guia Progressivo de Fundamentos do Python
+# Progressive Guide to Python Fundamentals
 
-Este guia é voltado para programadores que já possuem experiência com outras linguagens, mas são iniciantes em Python. O objetivo é se familiarizar com a sintaxe e os conceitos básicos da linguagem de forma progressiva.
+This guide is aimed at programmers who already have experience with other languages but are beginners in Python. The goal is to become familiar with the syntax and basic concepts of the language progressively.
 
-## 1. Conceitos Básicos
+## 1. Basic Concepts
 
-### 1.1 Sintaxe e Estrutura Básica
-- Indentação obrigatória ao invés de chaves `{}`
-- Uso de `:` para definir blocos de código
-- Sensível a maiúsculas e minúsculas
+### 1.1 Syntax and Basic Structure
+- Indentation is mandatory instead of curly braces `{}`
+- Use of `:` to define code blocks
+- Case-sensitive language
 
 ```python
 if True:
-    print("Indentação é obrigatória!")
+    print("Indentation is mandatory!")
 ```
 
-### 1.2 Variáveis e Tipagem Dinâmica
-- Python não exige declaração de tipos
-- Tipos são inferidos automaticamente
+### 1.2 Variables and Dynamic Typing
+- Python does not require type declarations
+- Types are inferred automatically
 
 ```python
-x = 10       # Inteiro
+x = 10       # Integer
 y = 3.14     # Float
-nome = "Ana" # String
-ativo = True # Booleano
+name = "Ana" # String
+active = True # Boolean
 ```
 
-### 1.3 Comentários
-- Comentário de uma linha: `#`
-- Comentário de múltiplas linhas: `""" ... """` ou `''' ... '''`
+### 1.3 Comments
+- Single-line comment: `#`
+- Multi-line comment: `""" ... """` or `''' ... '''`
 
 ```python
-# Este é um comentário de uma linha
+# This is a single-line comment
 """
-Este é um comentário
-de múltiplas linhas
+This is a multi-line
+comment
 """
 ```
 
-## 2. Operadores
+## 2. Operators
 
-### 2.1 Operadores Aritméticos
+### 2.1 Arithmetic Operators
 ```python
-soma = 10 + 5
-subtracao = 10 - 5
-multiplicacao = 10 * 5
-divisao = 10 / 3       # Retorna float
-div_inteira = 10 // 3  # Retorna inteiro
-modulo = 10 % 3        # Resto da divisão
-potencia = 2 ** 3      # Exponenciação
+sum_ = 10 + 5
+subtraction = 10 - 5
+multiplication = 10 * 5
+division = 10 / 3       # Returns float
+int_division = 10 // 3  # Returns integer
+modulus = 10 % 3        # Remainder of division
+power = 2 ** 3          # Exponentiation
 ```
 
-### 2.2 Operadores Lógicos e Comparação
+### 2.2 Logical and Comparison Operators
 ```python
-resultado = (10 > 5) and (5 < 8)  # True
-resultado = (10 == 5) or (5 != 8) # True
-resultado = not (10 > 5)          # False
+result = (10 > 5) and (5 < 8)  # True
+result = (10 == 5) or (5 != 8) # True
+result = not (10 > 5)          # False
 ```
 
-## 3. Estruturas de Controle
+## 3. Control Structures
 
-### 3.1 Condicionais
+### 3.1 Conditionals
 ```python
 x = 10
 if x > 5:
-    print("Maior que 5")
+    print("Greater than 5")
 elif x == 5:
-    print("Igual a 5")
+    print("Equal to 5")
 else:
-    print("Menor que 5")
+    print("Less than 5")
 ```
 
-### 3.2 Laços de Repetição
+### 3.2 Loops
 #### 3.2.1 `for`
 ```python
 for i in range(5):
@@ -95,117 +95,117 @@ while x < 5:
     x += 1
 ```
 
-## 4. Estruturas de Dados
+## 4. Data Structures
 
-### 4.1 Listas
+### 4.1 Lists
 ```python
-numeros = [1, 2, 3, 4]
-numeros.append(5)
-numeros.remove(2)
-print(numeros)  # [1, 3, 4, 5]
+numbers = [1, 2, 3, 4]
+numbers.append(5)
+numbers.remove(2)
+print(numbers)  # [1, 3, 4, 5]
 ```
 
-#### 4.1.1 Slicing em Listas
+#### 4.1.1 List Slicing
 ```python
-lista = [0, 1, 2, 3, 4, 5]
-print(lista[1:4])  # [1, 2, 3]
-print(lista[:3])   # [0, 1, 2]
-print(lista[3:])   # [3, 4, 5]
-print(lista[::-1]) # [5, 4, 3, 2, 1, 0]
+lst = [0, 1, 2, 3, 4, 5]
+print(lst[1:4])  # [1, 2, 3]
+print(lst[:3])   # [0, 1, 2]
+print(lst[3:])   # [3, 4, 5]
+print(lst[::-1]) # [5, 4, 3, 2, 1, 0]
 ```
 
-### 4.2 Tuplas
+### 4.2 Tuples
 ```python
-tupla = (1, 2, 3)
-print(tupla[0])  # 1
+tuple_ = (1, 2, 3)
+print(tuple_[0])  # 1
 ```
 
-### 4.3 Dicionários
+### 4.3 Dictionaries
 ```python
-dicionario = {"nome": "Ana", "idade": 25}
-print(dicionario["nome"])  # Ana
-dicionario["idade"] = 26
+dictionary = {"name": "Ana", "age": 25}
+print(dictionary["name"])  # Ana
+dictionary["age"] = 26
 ```
 
-### 4.4 Conjuntos (Sets)
+### 4.4 Sets
 ```python
-conjunto = {1, 2, 3, 3}
-print(conjunto)  # {1, 2, 3} (Sem duplicatas)
+set_ = {1, 2, 3, 3}
+print(set_)  # {1, 2, 3} (No duplicates)
 ```
 
-### 4.5 Manipulação de Strings
+### 4.5 String Manipulation
 ```python
-texto = "Olá, mundo!"
-print(texto.split(","))  # ['Olá', ' mundo!']
-print("-".join(["Python", "é", "incrível"]))  # Python-é-incrível
-print(texto.replace("mundo", "Python"))  # Olá, Python!
+text = "Hello, world!"
+print(text.split(","))  # ['Hello', ' world!']
+print("-".join(["Python", "is", "awesome"]))  # Python-is-awesome
+print(text.replace("world", "Python"))  # Hello, Python!
 ```
 
-## 5. Funções e Programação Funcional
+## 5. Functions and Functional Programming
 
-### 5.1 Definição de Funções
+### 5.1 Function Definition
 ```python
-def saudacao(nome):
-    return f"Olá, {nome}!"
-print(saudacao("Ana"))
+def greeting(name):
+    return f"Hello, {name}!"
+print(greeting("Ana"))
 ```
 
-### 5.2 Funções Lambda
+### 5.2 Lambda Functions
 ```python
-quadrado = lambda x: x ** 2
-print(quadrado(4))  # 16
+square = lambda x: x ** 2
+print(square(4))  # 16
 ```
 
-### 5.3 Map, Filter e Reduce
+### 5.3 Map, Filter, and Reduce
 ```python
-numeros = [1, 2, 3, 4]
-dobro = list(map(lambda x: x * 2, numeros))  # [2, 4, 6, 8]
-pares = list(filter(lambda x: x % 2 == 0, numeros))  # [2, 4]
+numbers = [1, 2, 3, 4]
+double = list(map(lambda x: x * 2, numbers))  # [2, 4, 6, 8]
+evens = list(filter(lambda x: x % 2 == 0, numbers))  # [2, 4]
 ```
 
-## 6. Manipulação de Arquivos
+## 6. File Handling
 ```python
-with open("arquivo.txt", "w") as arquivo:
-    arquivo.write("Olá, mundo!")
+with open("file.txt", "w") as file:
+    file.write("Hello, world!")
 ```
 
-## 7. Programação Orientada a Objetos (POO)
+## 7. Object-Oriented Programming (OOP)
 
-### 7.1 Classes e Objetos
+### 7.1 Classes and Objects
 ```python
-class Pessoa:
-    def __init__(self, nome, idade):
-        self.nome = nome
-        self.idade = idade
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-    def saudacao(self):
-        return f"Olá, meu nome é {self.nome}"
+    def greet(self):
+        return f"Hello, my name is {self.name}"
 
-pessoa1 = Pessoa("Ana", 25)
-print(pessoa1.saudacao())  # Olá, meu nome é Ana
+person1 = Person("Ana", 25)
+print(person1.greet())  # Hello, my name is Ana
 ```
 
-## 8. Tratamento de Exceções
+## 8. Exception Handling
 ```python
 try:
     x = 10 / 0
 except ZeroDivisionError:
-    print("Erro: divisão por zero")
+    print("Error: division by zero")
 finally:
-    print("Bloco finally sempre é executado")
+    print("Finally block always executes")
 ```
 
-## 9. Módulos e Pacotes
+## 9. Modules and Packages
 
-### 9.1 Importação de Módulos
+### 9.1 Importing Modules
 ```python
 import math
 print(math.sqrt(16))  # 4.0
 ```
 
-### 9.2 Introdução a Pacotes e Bibliotecas
-- Utilização de pacotes externos como `numpy`, `pandas`, `requests`.
-- Como instalar pacotes com `pip install <pacote>`.
+### 9.2 Introduction to Packages and Libraries
+- Using external packages like `numpy`, `pandas`, `requests`.
+- Installing packages with `pip install <package>`.
 
 ```python
 import requests
